@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>北海道四季</title>
+
+<!--CSS-->
+<link href="./css/reset.css" rel="stylesheet" type="text/css" media="screen,print">
+<link href="./css/style.css" rel="stylesheet" type="text/css" media="screen,print">
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+
+</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+<body>
+
+
+<div class="seasons">
+  <!-- page 1 -->	
+	<div class="header">
+		<video src="video/autumnlove2019.mp4" loop autoplay muted></video>
+		<ul class="menu01">
+			<li><a href="#"><span>ホーム</span>HOME</a></li>
+			<li><a href="#page2"><span>観光</span>SIGHTSEEING</a></li>
+			<li><a href="#page3"><span>ご宿泊</span>ACCOMMODATION</a></li>
+			<li><a href="#page4"><span>お食事</span>CUISINE</a></li>
+			<li><a href="#page5"><span>イベント</span>EVENT</a></li>
+			<li><a href="#page6"><span>アクセス</span>ACCESS</a></li>
+			<li><a href="#page7"><span>お知らせ</span>NEWS</a></li>
+			<li><a href="#page8"><span>お問い合わせ</span>CONTACT</a></li>
+			<span class="ion-navicon-round" id="mainmenu01" onclick="opennav()"></span>
+			<li class="downbutton01"><a href="#page2"><p>⬇︎</p></a></li>
+		</ul>
+	</div>
+	
+	<div id="slidenav" class="slidenav" style="list-style: none;">
+			<li><a href="#"><span>ホーム</span>HOME</a></li>
+		   	<li><a href="#page2"><span>観光</span>SIGHTSEEING</a></li>
+		   	<li><a href="#page3"><span>ご宿泊</span>ACCOMMODATION</a></li>
+		   	<li><a href="#page4"><span>お食事</span>CUISINE</a></li>
+		   	<li><a href="#page5"><span>イベント</span>EVENT</a></li>
+		   	<li><a href="#page6"><span>アクセス</span>ACCESS</a></li>
+		   	<li><a href="#page7"><span>お知らせ</span>NEWS</a></li>
+		   	<li><a href="#page8"><span>お問い合わせ</span>CONTACT</a></li>
+			<a href="javascript:void(0)" class="ion-close-round" id="closeicon" onclick="closenav()"></a>
+	</div>
+	<!-- page 2 -->
+		<div class="sightseeing" id="page2">
+			<div class="page2left">
+				<video src="video/hokkaidotravel.mp4" loop autoplay muted controls></video>
+				<h1><span class="ka">観</span><h3>Sightseeing</h3></h1>
+			</div>
+			<div class="page2right">
+				<h2>北海道　道央の旅</h2>
+				<p>『ニセコ』　は海外のプロスキーヤーに愛される「雪のまち」。でも、それはあくまで冬の表情にすぎません。札幌から、わずか2時間のドライブの先にある景色と味わいとは。たびらいが自信をもっておすすめする水と森のまち、緑の季節の「ニセコローカルトリップ術」をガイドします。
+				<br>『余市』　日本人として初めて、スコットランドで本格スコッチウイスキーの蒸溜技術を学んだ竹鶴政孝。スコットランドに似た気候や豊かな自然を探し続け、1934年、余市に蒸溜所を開いた。敷地内には、竹鶴氏とスコットランド人のリタ夫人が暮らした邸宅やウイスキー博物館などがあり、蒸溜所見学と併せて一般に公開。</p>
+			</div>
+			<div class="readbutton_pg2">
+				<a href="">READ MORE<span>▶</span></a>
+			</div>
+
+			<ul class="menu02">
+			<span class="ion-navicon-round" id="mainmenu02" onclick="opennav()"></span>
+			<li class="downbutton02"><a href="#"><p>⬆︎</p></a></li>
+			<li class="downbutton02"><a href="#page3"><p>⬇︎</p></a></li>
+			</ul>
+		</div>
+	
+	<!-- page 3 -->
+		<div class="accommodation" id="page3">
+			<div class="page3left">
+				<video src="video/hokkaidoacc.mp4" loop autoplay muted controls></video>
+				<h1><span class="ka">宿</span><h3>Accommodation</h3></h1>
+			</div>
+			<div class="page3right">
+				<h2>北海道　温泉天国</h2>
+				<p>北海道を旅する上で、お楽しみのひとつといえばやっぱり温泉。「温泉天国」と称されるに相応しく、個性豊かな泉質、豊富な湯量、季節によって趣の異なる雄大な自然の眺望が最大の特長で、人気の温泉郷を多く有しています。広々とした大浴場を備えたリゾート施設から秘湯の雰囲気たっぷりの旅館や保養施設まで、旅の目的に合わせて1日の締めくくりを温泉でゆっくりとくつろいでみませんか。花火に氷像、ライトアップイルミネーション。北海道の冬には楽しいイベントが目白押し！　そんな各地のイベントを存分に楽しむのにピッタリなホテルを集めました。ホテルを拠点に、さぁ幻想的な冬の世界へ出かけましょう。</p>
+			</div>
+			<div class="readbutton_pg3">
+				<a href="">READ MORE<span>▶</span></a>
+			</div>
+
+			<ul class="menu03">
+			<span class="ion-navicon-round" id="mainmenu03" onclick="opennav()"></span>
+			<li class="downbutton03"><a href="#page2"><p>⬆︎</p></a></li>
+			<li class="downbutton03"><a href="#page4"><p>⬇︎</p></a></li>
+			</ul>
+		</div>
+	<!-- page 4 -->
+		<div class="cuisine" id="page4">
+			<div class="page4left">
+				<video src="video/hokkaidofood.mp4" loop autoplay muted controls></video>
+				<h1><span class="ka">食</span><h3>Cuisine</h3></h1>
+			</div>
+			<div class="page4right">
+				<h2>北海道　地元の美食</h2>
+				<p>旅のお楽しみといえば、その土地のおいしいものを食べること。食材の宝庫・北海道は訪れる人を満足させるグルメにあふれています。食イベントに足を運べば、おいしい食べ方を教えてもらったり、地元の情報を教えてもらったり、といった地域の人との交流も生まれることでしょう。ご当地グルメは、一皿にその土地の名産品が詰まっています。食を通して街を知れば、もっと旅が楽しくなるはず。ビールやワイン、日本酒など、北海道産の酒も充実しています。北海道グルメを肴に一杯、というのもおすすめです。</p>
+			</div>
+			<div class="readbutton_pg4">
+				<a href="">READ MORE<span>▶</span></a>
+			</div>
+
+			<ul class="menu04">
+			<span class="ion-navicon-round" id="mainmenu04" onclick="opennav()"></span>
+			<li class="downbutton04"><a href="#page3"><p>⬆︎</p></a></li>
+			<li class="downbutton04"><a href="#page5"><p>⬇︎</p></a></li>
+			</ul>
+		</div>
+
+<!-- page 5 -->
+		<div class="event" id="page5">
+			<div class="page5left">
+				<video src="video/autumnlove2019.mp4" loop autoplay muted controls></video>
+				<h1><span class="ka">イ</span><h3>Event</h3></h1>
+			</div>
+			<div class="page5right">
+				<h2>北海道　定山渓温泉へ</h2>
+				<p>JOZANKEI NATURE LUMINARIE<br>『SECRET NIGHT PARK』<br>豊かな森に水と草花を光で表現したライティングパフォーマンス。クリエイター集団「NAKED」がプロデュースした自然と共鳴する光のショーは2016年に始まり、今では定山渓温泉を代表する人気イベントです。
+				<br>定山渓温泉に神秘の森が現れる「Jozankei Nature Luminarie（定山渓ネイチャールミナリエ）」。国立公園内にある定山渓温泉で行われる期間限定のイベントは幻想的な雰囲気が魅力。森と光が織りなすファンタジーの世界へぜひ足を運んでみて。また、うれしいSNSキャンペーンも実施中！旅の思い出に参加するのも良いですね。</p>
+			</div>
+			<div class="readbutton_pg5">
+				<a href="">READ MORE<span>▶</span></a>
+			</div>
+
+			<ul class="menu05">
+			<span class="ion-navicon-round" id="mainmenu05" onclick="opennav()"></span>
+			<li class="downbutton05"><a href="#page4"><p>⬆︎</p></a></li>
+			<li class="downbutton05"><a href="#page6"><p>⬇︎</p></a></li>
+			</ul>
+		</div>
+	<!-- page 6 -->
+		<div class="access" id="page6">
+			<div class="page6left">
+				<h1><span class="ka">ア</span><h3>Access</h3></h1>
+			</div>
+			<div class="map">
+				<img src="img/hokkaidomap_pink.png">
+				<ul class="map_content">
+					<li class="m01"><a href="https://www.wkj-airport.jp/"><span>・</span>稚内<img src="img/airport24.png"></a></li>
+					<li class="m02"><a href="http://www.mmb-airport.co.jp/"><span>・</span>網走<img src="img/airport24.png"></a></li>
+					<li class="m03"><a href="https://www.nakashibetsu-airport.jp/"><span>・</span>根室<img src="img/airport24.png"></a></li>
+					<li class="m04"><a href="https://www.kushiro-airport.co.jp/"><span>・</span>釧路<img src="img/airport24.png"></a></li>
+					<li class="m05"><a href="http://obihiro-airport.com/"><span>・</span>帯広<img src="img/airport24.png"></a></li>
+					<li class="m06"><a href=""><span>・</span>夕張</a></li>
+					<li class="m07"><a href=""><span>・</span>富良野</a></li>
+					<li class="m08"><a href="https://www.aapb.co.jp/"><span>・</span>旭川<img src="img/airport24.png"></a></li>
+					<li class="m09"><a href="http://www.town.rishirifuji.hokkaido.jp/rishirifuji/1184.htm"><span>・</span>利尻島<img src="img/airport24.png"></a></li>
+					<li class="m10"><a href="https://www.okadama-airport.co.jp/"><span>・</span>札幌<img src="img/airport24.png"></a></li>
+					<li class="m11"><a href=""><span>・</span>小樽</a></li>
+					<li class="m12"><a href=""><span>・</span>ニセコ</a></li>
+					<li class="m13"><a href=""><span>・</span>洞爺湖</a></li>
+					<li class="m14"><a href=""><span>・</span>支笏湖</a></li>
+					<li class="m15"><a href=""><span>・</span>登別</a></li>
+					<li class="m16"><a href=""><span>・</span>室蘭</a></li>
+					<li class="m17"><a href="http://www.new-chitose-airport.jp/ja/"><span>・</span>千歳<img src="img/airport24.png"></a></li>
+					<li class="m18"><a href="https://airport.ne.jp/"><span>・</span>函館<img src="img/airport24.png"></a></li>
+					<li class="m19"><a href=""><span>・</span>北見</a></li>
+					<li class="m20"><a href=""><span>・</span>定山渓</a></li>
+					<li class="m21"><a href=""><span>・</span>十勝</a></li>
+					<li class="m22"><a href=""><span>・</span>阿寒湖</a></li>
+					<li class="m23"><a href=""><span>・</span>層雲峡</a></li>
+					<li class="m24"><a href=""><span>・</span>知床</a></li>
+					<li class="m25"><a href="https://www.ok-m.jp/"><span>・</span>紋別<img src="img/airport24.png"></a></li>
+					<li class="m26"><a href=""><span>・</span>余市</a></li>
+					<li class="m27"><a href=""><span>・</span>礼文島</a></li>
+				</ul>
+			</div>
+			<div class="page6right_01">
+				<table class="page6right_content_01">
+					<tr href="http://www.new-chitose-airport.jp/ja/"><th><img src="img/airport24.png">&emsp;&emsp;&nbsp;&emsp;&nbsp;</th>&emsp;&emsp;&emsp;&emsp;&emsp;<th>空港&emsp;&emsp;&emsp;&emsp;&emsp;</th><th>AIRPORT</th></tr>
+					<tr href="http://www.new-chitose-airport.jp/ja/"><td>&nbsp;&nbsp;<img src="img/airport24.png"></td><td>新千歳空港</td><td>NEW CHITOSE AIRPORT</td></tr>
+					<tr href="https://www.wkj-airport.jp/"><td></td><td>稚内空港</td><td>WAKKANAI AIRPORT</td></tr>
+					<tr href="https://airport.ne.jp/"><td></td><td>函館空港</td><td>HAKODATE AIRPORT</td></tr>
+				</table>
+			</div>
+			<div class="readbutton_pg6_01">
+				<a href="">READ MORE<span>▶</span></a>
+			</div>
+			
+			<div class="page6right_02">
+				<table class="page6right_content_02">
+					<tr href="http://www.jrhokkaido.co.jp/"><th><img src="img/railway24.png">&nbsp;<img src="img/bus24.png">&nbsp;<img src="img/car24.png">&emsp;&nbsp;</th><th>鉄道／バス／車&emsp;&emsp;</th><th>RAILWAY／BUS／CAR</th></tr>
+					<tr href="http://www.jrhokkaido.co.jp/"><td>&nbsp;&nbsp;<img src="img/railway24.png"></td><td>JR 北海道旅客鉄道</td><td>HOKKIDO RAILWAY COMPANY</td></tr>
+					<tr href="http://www.city.sapporo.jp/st/time/"><td></td><td>札幌市営地下鉄</td><td>SSAPPORO CITY SUBWAY</td></tr>
+					<tr href="http://www.hokkaidoubus-newstar.jp/bus"><td>&nbsp;&nbsp;<img src="img/bus24.png"></td><td>高速バス</td><td>HIGHWAY BUS</td></tr>
+				</table>
+			</div>
+			<div class="readbutton_pg6_02">
+				<a href="">READ MORE<span>▶</span></a>
+			</div>
+			
+			<div class="page6right_03">
+				<table class="page6right_content_03">
+					<tr href="https://www.sunflower.co.jp/lp/lowpriced/index.html"><th><img src="img/ferry24.png">&emsp;&emsp;</th><th>フェリー</th><th>FERRY</th></tr>
+					<tr href="https://www.sunflower.co.jp/lp/lowpriced/index.html"><td>&nbsp;&nbsp;<img src="img/ferry24.png"></td><td>商船三井フェリー</td><td>MOL FERRY</td></tr>
+					<tr href="http://www.taiheiyo-ferry.co.jp/"><td></td><td>太平洋フェリー</td><td>TAIHEIYO FERRY</td></tr>
+				</table>
+			</div>
+			<div class="readbutton_pg6_03">
+				<a href="">READ MORE<span>▶</span></a>
+			</div>
+			
+			<ul class="menu06">
+			<span class="ion-navicon-round" id="mainmenu06" onclick="opennav()"></span>
+			<li class="downbutton06"><a href="#page5"><p>⬆︎</p></a></li>
+			<li class="downbutton06"><a href="#page7"><p>⬇︎</p></a></li>
+			</ul>
+
+		</div>
+	<!-- page 7 -->
+		<div class="news" id="page7">
+			<div class="page7left">
+				<video src="video/hokkaidonews.mp4" loop autoplay muted controls></video>
+				<h1><span class="ka">知</span><h3>News</h3></h1>
+			</div>
+			<div class="page7right">
+				<h2><a href="">お知らせ　News</a></h2>
+				<ul class="news_content">
+					<li class="news1"><a href="http://www.tokachigawa.net/event/sairinka.html"><span>1</span>&emsp;<p>十勝川白鳥まつり彩凛華</p></a></li>
+					<li class="news2"><a href="https://www.snowstory.info/"><span>2</span>&emsp;<p>小樽ゆき物語</p></a></li>
+					<li class="news3"><a href="https://www.snowfes.com/"><span>3</span>&emsp;<p>第71回さっぽろ雪まつり</p></a></li>
+					<li class="news4"><a href="https://event.hakobura.jp/964"><span>4</span>&emsp;<p>函館イルミネーション</p></a></li>
+					<li class="news4"><a href="https://www.tsurugagroup.com/plans/fuyu_hanabi/"><span>5</span>&emsp;<p>阿寒湖氷上フェスティバル</p></a></li>
+					<li class="news4"><a href="https://www.snowtomamu.jp/winter/topics/1805/"><span>6</span>&emsp;<p>星野トマム 霧氷テラス</p></a></li>
+				</ul>
+			</div>
+			<div class="readbutton_pg7">
+				<a href="">READ MORE<span>▶</span></a>
+			</div>
+			
+			<ul class="menu07">
+			<span class="ion-navicon-round" id="mainmenu07" onclick="opennav()"></span>
+			<li class="downbutton07"><a href="#page6"><p>⬆︎</p></a></li>
+			<li class="downbutton07"><a href="#page8"><p>⬇︎</p></a></li>
+			</ul>
+		</div>
+	<!-- page 8 -->
+		<div class="contact" id="page8">
+			<div class="page8left">
+				<video src="video/twinklestar1.mp4" loop autoplay muted controls></video>
+				<h1><span class="ka">問</span><h3>Contact</h3></h1>
+			</div>
+			
+			<div class="formlist">
+
+				<form action="confirm.php" method="post" name="form" onsubmit="return validate()">
+        			<h1 class="contact-title">お問い合わせ 内容入力</h1>
+        			<h2>お問い合わせ内容をご入力の上、「確認画面へ」ボタンをクリックしてください。</h2>
+
+	   			<ul>
+					<li class="name">
+		   				<label for="name">お名前<br>Name<span>必須</span></label>
+		   				<input id="name" type="text" name="name" placeholder="例）藤岡 靛" size="48" value="">
+		 			</li>
+
+		 			<li class="furigana">
+						<label for="furigana">フリガナ(全角カナ)<br>Furigana<span>必須</span></label>
+		   				<input id="furigana" type="text" name="furigana" placeholder="例）フジオカディーン" size="48" value="">
+		 			</li>
+
+		 			<li class="mail">
+		   				<label for="mail">メールアドレス(半角英数字)<br>E-Mail<span>必須</span></label>
+		   				<input id="mail" type="text" name="mail" placeholder="例）appleho981@gmail.com" size="48" value="">
+		 			</li>
+
+		 			<li class="tel">
+		   				<label for="tel">電話番号(半角数字)<br>Phone Number<span>必須</span></label>
+		   				<input id="tel" type="text" name="tel" placeholder="例）080-9970-2072" size="48" value="">
+		 			</li>
+
+		 			<li>
+		   				<label for="sex">性別 <br>Sex<span>必須</span></label>
+		   				<input id="male" type="checkbox" name="sex" value="男性">男性 Male
+		   				<input id="female" type="checkbox" name="sex" value="女性">女性 Female
+		 			</li>　　　　
+
+		 			<li>
+		   				<label for="item">お問い合わせ項目<br>Enquiry Item<span>必須</span></label>
+                		<select name="item" class="item">
+                    		<option value="">お問い合わせ項目を選択してください</option>
+                    		<option value="ご質問・お問い合わせ">ご質問・お問い合わせ</option>
+                    		<option value="ご意見・ご感想">ご意見・ご感想</option>
+                		</select>
+	     			</li>
+
+		 			<li>
+		   				<label for="content1">お問い合わせ内容<br>Enquiry Details<span>必須</span></label>
+                		<textarea name="content1" rows="5" cols="50" placeholder="お問合せ内容を入力"></textarea>
+		 			</li>
+	       				<button type="submit">確認画面へ<br>Submit</button>
+
+	    		</ul>
+					
+	  			</form>
+			</div>
+			
+			<div class="page8right">
+				<ul style="list-style: none;">
+					<li class="contact01"><a href="https://mail.google.com/"><img src="img/icon1.png"></a></li>
+	       			<li class="contact02"><a href="https://line.me/ja/"><img src="img/icon2.png"></a></li>
+	       			<li class="contact03"><a href="https://www.google.com/maps"><img src="img/icon3.png"></a></li>
+				</ul>
+			</div>
+			
+			<ul class="menu08">
+				<span class="ion-navicon-round" id="mainmenu08" onclick="opennav()"></span>
+				<li class="downbutton08"><a href="#page7"><p>⬆︎</p></a></li>
+				<li class="downbutton08"><a href="#footmenu"><p>⬇︎</p></a></li>
+			</ul>
+
+		</div>
+		<!--　footer -->
+		<div class="footer" id="footer">
+			<div class="logo">
+				<img src="img/applesdream.png">
+			</div>
+			<ul style="list-style: none">
+				<li><a href="https://www.facebook.com/"><img src="img/icon4.png"></a></li>
+				<li><a href="https://twitter.com/"><img src="img/icon5.png"></a></li>
+				<li><a href="https://www.instagram.com/"><img src="img/icon6.png"></a></li>
+			</ul>
+			<p>Copyright © 2019 Apple's Dream Short Film Workshop. All Rights Reserved.</p>
+		</div>	
+
+	
+</div>
+
+<script type="text/javascript" src="js/main.js"></script>
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/jquery.inview.js" type="text/javascript"></script>
+</body>
+</html>
